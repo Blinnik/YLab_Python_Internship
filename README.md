@@ -6,7 +6,7 @@ Write a `domain_name` method that will return the domain from an URL
 Write an `int32_to_ip` method that takes a 32-bit integer as input and returns a string representation of it as an IPv4 address
 
 ## Task 3
-Write a `zeros` method that takes an integer (integer) as input and returns the number of trailing zeros in the factorial (N! = 1 * 2 * 3 * ... * N) of a given number
+Write a `zeros` method that takes an integer (`integer`) as input and returns the number of trailing zeros in the factorial (`N! = 1 * 2 * 3 * ... * N`) of a given number
 
 ## Task 4
 Bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌bananas🍌<br /><br />
