@@ -15,5 +15,5 @@ Who doesn't like bananas?!<br /><br />
 Write a `bananas` method that takes a string as input and returns the number of "banana" words in a string.
 
 ## Task 5
-Given a list of prime factors, primesL, and an integer, limit, try to generate in order, all the numbers less than the value of limit, that have all and only the prime factors of primesL
+Given a list of prime factors, `primesL`, and an integer, `limit`, try to generate in order, all the numbers less than the value of `limit`, that have all the prime factors of `primesL`
 
