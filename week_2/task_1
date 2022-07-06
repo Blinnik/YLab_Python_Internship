@@ -1,0 +1,57 @@
+from itertools import permutations
+
+
+# Calculates the distance between two points
+def find_distance(p1, p2):
+    return ((p2[0] - p1[0]) ** 2 + (p2[1] - p1[1]) ** 2) ** 0.5
+
+
+def shortest_path(*args):
+    if len(args) == 0:
+        return print("Error. Enter more arguments")
+    # Finds all possible paths
+    possible_paths = list()
+    for path in permutations(args, len(args)):
+        if path[0] != args[0]:
+            continue
+
+        # Adds a start point to an end position
+        path = list(path)
+        path.append(args[0])
+
+        possible_paths.append(path)
+
+    # Finds the distance of a path
+    calculated_paths = list()
+
+    for path in possible_paths:
+        past_way = 0
+
+        one_result = list()
+        for i in range(len(path) - 1):
+            if i:
+                past_way = one_result[i - 1][2]
+
+            one_result.append([
+                path[i],
+                path[i + 1],
+                find_distance(path[i], path[i + 1]) + past_way
+                ])
+        calculated_paths.append(one_result)
+
+    # Finds and outputs the smallest possible path
+    min_path = min(calculated_paths, key=lambda i: i[-1][2])
+
+    for i in range(len(min_path)):
+        if i == 0:
+            print(f'{min_path[i][0]}', end='')
+        print(f' -> {min_path[i][1]}[{min_path[i][2]}]', end='')
+        if i == len(min_path) - 1:
+            print(f' = {min_path[i][2]}')
+
+# Accepts points (x, y) as input
+shortest_path((0, 2),
+              (2, 5),
+              (8, 3),
+              (5, 2),
+              (6, 6))
